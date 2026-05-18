@@ -1,0 +1,184 @@
+/* ================================================================
+   CUSTOMER MODULE CSS
+   Temporary stylesheet for Student 3 pages
+   Save as: css/customer.css
+   ================================================================ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    color: #222;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* ================= Buttons ================= */
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
+
+.btn-danger {
+    background: #dc2626;
+}
+
+.btn-danger:hover {
+    background: #b91c1c;
+}
+
+.btn-secondary {
+    background: #6b7280;
+}
+
+.btn-secondary:hover {
+    background: #4b5563;
+}
+
+/* ================= Forms ================= */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+}
+
+/* Add this to css/customer.css so all form fields,
+   including password and file inputs, use consistent styling */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background: #ffffff;
+}
+
+/* Keep checkbox styling normal */
+input[type="checkbox"] {
+    width: auto;
+    margin-bottom: 0;
+}
+
+/* Optional: make file input look cleaner */
+input[type="file"] {
+    padding: 10px;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* ================= Tables ================= */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.table th {
+    background: #f1f5f9;
+    font-weight: bold;
+}
+
+/* ================= Cart ================= */
+.cart-quantity {
+    width: 80px;
+}
+
+.table img {
+    border-radius: 6px;
+    max-width: 60px;
+    height: auto;
+}
+
+/* ================= Alerts ================= */
+.alert {
+    padding: 12px 15px;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.alert-error {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.alert-success {
+    background: #dcfce7;
+    color: #166534;
+}
+
+/* ================= Responsive ================= */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .table {
+        font-size: 13px;
+    }
+
+    .table th,
+    .table td {
+        padding: 8px;
+    }
+
+    .btn {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+}
