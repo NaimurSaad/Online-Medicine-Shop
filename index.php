@@ -3,10 +3,13 @@ session_start();
 require 'config/config.php';
 
 require 'models/UserModel.php';
+require 'models/CustomerManageModel.php';
+require 'models/MedicineSearchModel.php';
 require 'models/MedicineModel.php';
 require 'models/CategoryModel.php';
 require 'models/CartModel.php';
 require 'models/OrderModel.php';
+require 'models/AdminOrderModel.php';
 require 'models/PaymentModel.php';
 
 require 'controllers/AuthController.php';
