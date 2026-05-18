@@ -1,0 +1,73 @@
+.auth-container {
+    max-width: 450px;
+    margin: 60px auto;
+    background: #b4cbe8;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+.auth-subtitle {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.auth-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 15px 0;
+}
+
+.auth-btn-full {
+    width: 100%;
+}
+
+.auth-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.auth-hint {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.required {
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.error {
+    color: #dc2626;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 15px;
+}
+
+.invalid {
+    border-color: #dc2626 !important;
+}
+
+.valid {
+    border-color: #16a34a !important;
+}
